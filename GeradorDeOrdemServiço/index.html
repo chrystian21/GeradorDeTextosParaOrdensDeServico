@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Ordens de Serviço</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="dados">
+        <select name="motivo" id="motivo">
+            <option value="LOS">LOS</option>
+            <option value="atenuacao">Atenuação</option>
+            <option value="equipamento queimado">Equipamento queimado</option>
+            <option value="lentidao">Lentidão</option>
+            <option value="incompativel">Roteador incompatível</option>
+        </select>
+
+        <label for="horario">horário:</label>
+        <input type="text" name="horario" id="horario">
+
+        <label for="contato">Contato:</label>
+        <input type="text" name="contato" id="contato">
+
+        <div class="retorno">
+            <p id="TextoRetorno"></p>
+        </div>
+    </div>
+    <button id="teste">teste</button>
+
+    <script src="/GeradorDeOrdemServiço/script.js"></script>
+</body>
+</html>

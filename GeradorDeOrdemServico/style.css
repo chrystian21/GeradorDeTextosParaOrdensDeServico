@@ -1,0 +1,61 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #ec932e;
+    font-family: helvetica;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input > div {
+    margin: 1.2rem;
+}
+
+label{
+    color: #f3f3f3;
+}
+
+.input > div > input {
+    padding: 0.2rem;
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
+.input > div > select {
+    padding: 0.2rem;
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
+.retorno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.retorno > textarea {
+    margin: 1rem;
+    padding: 1rem;
+    width: 80%;
+    height: 10rem;
+    border-radius: 10px;
+    background-color: #f3f3f3;
+}
+
+button{
+    color: #f3f3f3;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    background-color: #2d8fdf;
+}
+
